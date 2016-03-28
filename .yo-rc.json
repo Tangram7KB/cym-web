@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "cymWeb",
+    "style": "css",
+    "postcss": false
+  }
+}
