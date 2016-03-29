@@ -1,7 +1,7 @@
 汽车连锁信息管理系统
 ===
 ___
->信老魏，得永生[^1]
+>####~~信老魏，得永生~~[^1]
 
 [^1]:你信或不信，老魏都在那里，不悲不喜。
 技术栈
@@ -28,7 +28,11 @@ ___
 ##遇到的问题及解决办法
 ___
 1. `react`中创建的类首字母必须**大写**  
-   在定义或者引入`react`的类时，首字母必须大写，因为babel在处理过程中，会把类名转换为小写，如果首字母小写，就会找不到定义的类。
+   在定义或者导入`react`的类时，首字母必须大写，因为babel在处理过程中有这个规则，如果首字母小写，就会找不到定义的类。 
+   1. 嵌套列表  
+   2. 嵌套列表
+   * 用星号照样是有序列表
+   		+ 另外一个嵌套列表
 2. `webpack`版本6使用`babel-loader`,必须引入`babel-preset-es2015`和`babel-preset-react`。
 3. `npm`安装全局包出现权限问题  
    通过在命令行运行  
@@ -77,7 +81,7 @@ ___
 	Content Cell | Content Cell  | Content Cell
 	Content Cell | Content Cell  | Content Cell    
 	
-	```
+	```javascript  
 var Catagory = {
 displayName: 'Level1 cata',
 key: '00',
@@ -85,9 +89,11 @@ subCatagory: []
 };
 	```   
 + ####仓库数据格式   
-必须要有空行吗？
+	- [ ] 任务列表1
+	- [x] 任务列表2
+
  
-	```
+	```javascript
 var Storage = {
 	name: String,
 	id: ID,
