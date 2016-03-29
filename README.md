@@ -46,7 +46,7 @@ ___
 
 	这个是代码块，只需要在行首加一个tab或者4个空格，代码块前后各加一行空行。
 1. 箭头函数  
-   `=>(x, y) { return x+y; }`等同于`function (x, y) { return x+y;}.bind(this)`。
+   `(x, y)=> { return x+y; }`等同于`function (x, y) { return x+y;}.bind(this)`。
 
 		在列表中加代码块，需要在行首加两个tab或者8个空格，代码块前后各加一行空行。 
 2. 解构赋值  
