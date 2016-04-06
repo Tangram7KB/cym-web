@@ -9,7 +9,7 @@ ___
 ___
 ####前端
 * [bootstrap](http://getbootstrap.com/)
-* ![react logo](https://facebook.github.io/react/img/logo.svg =50x) [react](https://facebook.github.io/react/)
+* ![react logo](https://facebook.github.io/react/img/logo.svg) [react](https://facebook.github.io/react/)
 * [reactcss](https://github.com/casesandberg/reactcss#readme)
 * [react-bootstrap](http://react-bootstrap.github.io/)
 
@@ -67,7 +67,7 @@ ___
    >在列表中使用引用，需要在行首加1个tab或者4个空格  
    >另起一行也需要在前一行末尾加两个空格，`代码块`在引用中也可以使用。
 4. 模块导入、导出  
-   `import`导入模块，`exports`导出模块
+   `import`导入模块，`export`导出模块
 5. 555  
 
 
